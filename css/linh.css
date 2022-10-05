@@ -1,11 +1,120 @@
-p {
-    color: aqua;
+.sticky-navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ffffff1c;
+    box-shadow: 1px 1px 3px 0 #0000000d;
+    display: block;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+    position: fixed;
 }
 
-.first {
-    color: blue;
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    margin: auto;
+    max-width: 1170px;
+    text-align: center;
 }
 
-#paragraph {
-    background-color: brown;
+.header-right {
+    display: flex;
+}
+
+.heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Pacifico, sans-serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav-link {
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cart-icon {
+    height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 16px;
+}
+
+.content {
+    max-width: 1170px;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.top-text {
+    color: #d77474;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-text {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.history-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.history-grid div {
+    width: 43%;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-list img {
+    height: 60px;
+    width: 60px;
+}
+
+.product-category {
+    align-items: center;
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    height: 165px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 35px;
+    width: 200px;
+}
+
+.product-category.c1 {
+    background-color: #ebb96a;
+
+}
+
+.product-category.c2 {
+    background-color: #ff5f0f;
+}
+
+.product-category.c3 {
+    background-color: #ac1313;
 }
