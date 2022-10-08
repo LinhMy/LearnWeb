@@ -1,0 +1,34 @@
+body{
+  font-family: "Merriweather";
+  font-size: 16px;
+  line-height: 20px;
+}
+#main{
+  padding:0 320px 0 0px;
+  line-height: 20px;
+  margin-left: 0;
+}
+ul{
+  color:#9a9a9a;
+  padding-left:0px;
+  line-height: 2.5;
+}
+.fix{
+  position:relative;
+}
+
+#sizebar{
+  position: absolute;
+  right:15px;
+  top:0;
+  width:950px;
+  padding: 0 0 20px 20px;
+}
+ul {
+  list-style: none;
+}
+.div-show{
+  line-height: 2;
+}
+
+
