@@ -4,9 +4,10 @@ body{
   line-height: 20px;
 }
 #main{
-  padding:0 320px 0 0px;
+  padding:10 320px 0 0px;
   line-height: 20px;
   margin-left: 0;
+  margin-top: ;
 }
 ul{
   color:#9a9a9a;

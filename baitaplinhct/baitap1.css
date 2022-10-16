@@ -1,0 +1,63 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 2;
+}
+#top {
+    width: 920px;
+    height: 135px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+
+h4{
+    color:#9a9a9a;
+}
+#bot{
+    display: flex;
+}
+.map{
+    flex-basis: 30%;
+    margin-left: 100px;
+}
+.form{
+    flex-basis: 70%;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.minibox{
+    display: inline-flex;
+    text-align: justify;
+    flex-direction: column;
+    line-height: 2;
+}
+.name{
+    flex-basis: 50%;
+    
+}
+.mail{
+    flex-basis: 50%;
+}
+.message{
+    line-height: 2;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    border: 0;
+    background-color:#9b0000;
+    color:aliceblue;
+    margin-top: 10px;
+
+}
+::placeholder{
+    text-align: left; 
+}
