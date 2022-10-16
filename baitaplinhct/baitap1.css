@@ -16,6 +16,13 @@
 h4{
     color:#9a9a9a;
 }
+img {
+    display: block;
+    width:1080px;
+    height:150px;
+    margin-bottom: 40px;
+    
+  }
 #bot{
     display: flex;
 }
