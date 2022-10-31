@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>dientich</title>
+    </head>
+    <body>
+        <form name="hinhchunhat">
+            <label>Chieu Dai:</laber><br>
+            <input type="text" id="dai" placeholder="chieudai"><br>
+            <label>Chieu Rong:</laber><br>
+            <input type="text" id="rong" placeholder="chieurong"><br>
+            <input type="button" value="dientich" onclick="dt()">
+            <input type="button" value="chuvi" onclick="cv()"> 
+        </form>
+        <script>
+            function dt(){
+            var dai = document.getElementById("dai").value;
+            var rong = document.getElementById("rong").value;
+            alert(dai*rong);
+            }
+            function cv(){
+            var dai = document.getElementById("dai").value;
+            var rong = document.getElementById("rong").value;
+            alert('dai+rong'*2)   
+        </script>
+    </body>
+</html>

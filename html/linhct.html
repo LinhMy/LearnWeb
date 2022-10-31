@@ -17,29 +17,35 @@
     <body>
         <form method="" action="">
             <h3>Please confirm the in put contents</h3>
-            <div class="div-show">
+            <div class="div-show" >
                 <span class="lable-show">Name</span>
-                <textarea placeholder="Subject" cols="50" rows="1"></textarea>
+                <input type="text" id="name" placeholder="Name" >
             </div>
-            <div class="div-show">
+            <div class="div-show" >
                 <span class="lable-show">Mail</span>
-                <textarea placeholder="Your Mail" cols="50" rows="1"></textarea>
+                <input type="text" id="mail" placeholder="Your Mail">
             </div>
             <div class="div-show">
                 <span class="lable-show">Subject</span>
-                <textarea placeholder="Subject" cols="50" rows="1"></textarea>
+                <input type="text" placeholder="Subject" >
             </div>
             <div class="div-show">
                 <span class="lable-show">Message:</span>
-                <textarea placeholder="Message" cols="50" rows="10"></textarea>
+                <textarea placeholder="Message" cols="21" rows="5"></textarea>
             </div>
             <div class="div-show">
                 <span class="lable-show"></span>
-                <input type="submit"  value="Send Massage" style="background-color:DodgerBlue;color:aliceblue;border: 4px solid DodgerBlue" />
+                <input type="button" onclick="click()"  value="Send Massage" style="background-color:DodgerBlue;color:aliceblue;border: 4px solid DodgerBlue" />
             </div>
         </form>
         <div>
             <a href="https://google.com" style="color:DodgerBlue;"> Homepage</a>
         </div>
+        <script>
+            function click(){
+             var ten = document.getElementById("name").value;                
+             alert(ten)
+            }   
+        </script>
     </body>
 </html>
