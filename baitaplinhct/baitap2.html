@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <title>tuoi</title>
+    <style>
+        .setText{
+            color:red;
+        }
+    </style>
+   </head>
+   <body>
+    <form name="tinhtuoi">
+        <label>Nam Sinh:</laber><br>
+        <input type="text" id="namsinh" placeholder="nhap nam sinh cua ban"><br>
+        <input type="button" value="tuoi cua ban" onclick="dt()">
+        <p id="showAge"></p>
+        </form>
+        <script>
+            function dt(){
+                var date = new Date();
+                var namnay = date.getFullYear();
+                var namsinh = document.getElementById("namsinh").value;
+                var sotuoi =(namnay - namsinh);
+                if (sotuoi>=0) {
+                    document.getElementById("showAge").innerHTML= "<span> So tuoi " + sotuoi + "</span>";    
+                }
+                if (sotuoi>=20) {
+                    document.getElementById("showAge").innerHTML= '<span> So tuoi <span class="setText">' + sotuoi + "</span></span>";
+                }   
+                else{
+                    alert("vui long nhap lai")
+                }
+                
+                
+            }
+           
+        </script>    
+   </body> 
+</html>
