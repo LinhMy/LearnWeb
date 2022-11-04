@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bài tập</title>
+</head>
+<body>
+    <form name="tinhtong">
+        <p>Số thứ 1</p>
+        <input type="text" name="Sothu1">
+        <br>
+        <p>Số thứ 2</p>
+        <input type="text" name="Sothu2">
+        <br>
+        <p>Kết quả</p>
+        <input type="text" name="Ketqua">
+        <br>
+        <input type="button" value="Tinh" onclick="Tong()">
+    </form>
+    <script type="text/javascript">
+        function Tong()
+        {
+            var Sothu1, Sothu2, Ketqua;
+            Sothu1 = Number(document.tinhtong.Sothu1.value);
+            Sothu2 = Number(document.tinhtong.Sothu2.value);
+            Ketqua = Sothu1 + Sothu2;
+            document.tinhtong.Ketqua.value = Ketqua;
+        }
+
+    </script>
+    
+</body>
+</html>
