@@ -28,8 +28,9 @@
                 if (sotuoi>=20) {
                     document.getElementById("showAge").innerHTML= '<span> So tuoi <span class="setText">' + sotuoi + "</span></span>";
                 }   
-                else{
-                    alert("vui long nhap lai")
+                else if(namsinh>namnay){
+                    document.getElementById("showAge").innerHTML= "<span> </span>";
+                    alert("vui long nhap lai");
                 }
                 
                 

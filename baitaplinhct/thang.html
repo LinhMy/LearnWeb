@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>thang co may ngay</title>
+    </head>
+    <body>
+        <p>thang: <input type="number" id="thang" placeholder="nhap thang"></p>
+        <input type="button" value="click" onclick="nhapthang()">
+        <p id="hienthang"></p>
+        <script>
+            function nhapthang(){
+                var th = document.getElementById("thang").value;
+                switch (th){
+                    case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+                        document.write("thang 31 ngay");
+                        break; 
+                }
+                
+                 
+            }
+
+        </script>
+    </body>
+</html>

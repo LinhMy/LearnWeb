@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>tinh tuoi cha con</title>
+    </head>
+    <body>
+        <p>tuoi cha: <input type="number" id="tuoicha" placeholder="nhap tuoi cha"></p>
+        <p>tuoi con: <input type="number" id="tuoicon" placeholder="nhap tuoi con"><br></p>
+        <input type="button" value="tinh toan" onclick="tinh()">
+        <script>
+           function tinh(){
+            var tuoicha =document.getElementById("tuoicha").value;
+            var tuoicon =document.getElementById("tuoicon").value;
+            var i = tuoicha;
+            var j = tuoicon;
+            for(var i;i=2*j;i++){
+                document.write(i)
+            }
+            
+
+           }
+        </script>
+    </body>
+</html>
